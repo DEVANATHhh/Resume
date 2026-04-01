@@ -1,12 +1,54 @@
 
+*{
+    font-family: sans-serif;
+    font-family: 20px;
+}
+
+body{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+     background: linear-gradient(to right, lightblue , lightgreen);
+
+}
+
+p{
+    width: 50%;
+    
+}
+
 
 #img{
     width: 200px;
     height: 200px;
-    border-radius: 20px;
+    float: right;
+    margin-top: 10px;
+   
+}
+
+h1{
+    text-align: center;
 }
 
 #head{
-    color: black;
-    background: linear-gradient(to right, rgb(128, 238, 128), rgb(22, 165, 218));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+     
+
+}
+
+#tab{
+    margin-left: 65%;
+    
+}
+
+.class{
+    flex: block;
+}
+
+#par{
+    margin-left: 20px;
+    display: flex;
 }
